@@ -181,7 +181,7 @@ const bool Z_ENDSTOPS_INVERTING = true; // set to true to invert the logic of th
 #define DISABLE_Z false // SR Changed 2012-09-14 to reduce misstep
 #define DISABLE_E false // For all extruders
 
-#define INVERT_X_DIR true    // for Mendel set to false, for Orca set to true, EchoRap true
+#define INVERT_X_DIR false    // for Mendel set to false, for Orca set to true, EchoRap with x endstop to right (looking from front) false
 #define INVERT_Y_DIR false    // for Mendel set to true, for Orca set to false, EchoRap false
 #define INVERT_Z_DIR false    // for Mendel set to false, for Orca set to true, EchoRap false
 #define INVERT_E0_DIR false   // for direct drive extruder v9 set to true, for geared extruder set to false
